@@ -44,7 +44,15 @@ export default defineEventHandler(() => {
             github: 'https://github.com/komikodok/symp-ai',
             link: 'https://chat-symp.vercel.app/',
             image: '/symp-ai.webp'
+        },
+        {
+            id: 5,
+            title: 'E-commerce Web App with Next.js & RTK',
+            description: 'An online shopping platform built with Next.js and Redux Toolkit for state management.',
+            body: 'This E-commerce Web App is designed as a modern shopping platform powered by Next.js and Redux Toolkit. It demonstrates key features of a scalable online store such as product listing, product detail pages, shopping cart, wishlist, and checkout flow. The state management is handled using Redux Toolkit for predictable and efficient global state handling, while Next.js provides SSR/SSG for fast and SEO-friendly performance.\n\nThe application integrates a dummy product API (FakeStoreAPI) for showcasing functionality. Features include add-to-cart, remove-from-cart, persistent state with Redux, and responsive UI built with Tailwind CSS. This project is ideal as a showcase for mastering frontend state management patterns and performance optimization in modern React ecosystems.',
+            github: 'https://github.com/komikodok/ecommerce-web-reduxtoolkit',
+            link: 'https://pishopp.vercel.app/',
+            image: '/ecommerce-rtk.webp'
         }
-
     ]
 })
