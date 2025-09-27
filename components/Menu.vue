@@ -100,7 +100,7 @@ function handleClick(e: MouseEvent) {
     :class="openMenu ? 'pointer-events-none' : 'pointer-events-auto cursor-pointer'"
     class="bg-no-repeat bg-contain max-w-xl w-full h-80 flex scale-[15%] justify-center items-center absolute -top-[120px] -left-[220px] z-[99]"
     :style="{
-      backgroundImage: `url('/map.png')`,
+      backgroundImage: `url('/map.webp')`,
       fontFamily: 'Pirata One'
     }"
   >

@@ -65,7 +65,7 @@ function animateLeaf() {
     <div
       id="mobile-warning-bg"
       class="absolute inset-0 bg-no-repeat bg-cover"
-      style="background-image: url('/forest.jpeg'); background-position: center;"
+      style="background-image: url('/forest.webp'); background-position: center;"
     />
     
     <div
@@ -80,7 +80,7 @@ function animateLeaf() {
 
     <img 
         id="leaf"
-        src="/leaf.png"
+        src="/leaf.webp"
         class="absolute -top-20 right-0 w-12 h-12"
     >
   </div>

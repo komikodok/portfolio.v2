@@ -133,7 +133,7 @@ function handleSubmit() {
                 >
                     <img 
                         id="assistant-avatar"
-                        src="/assistant-normal.png" 
+                        src="/assistant-normal.webp" 
                         class="w-20 h-20 pointer-events-none absolute bottom-0 object-cover"
                         @contextmenu.prevent=""
                         draggable="false"

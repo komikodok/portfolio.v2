@@ -66,12 +66,12 @@ function animateSkills(s: boolean, p: boolean) {
     <div 
         @click="emit('is-open')"
         id="scroll-parchment2"
-        style="background-image: url('/scroll-parchment2.png')" 
+        style="background-image: url('/scroll-parchment2.webp')" 
         class="cursor-pointer absolute top-full right-0 scale-[15%] rotate-90 bg-no-repeat bg-cover max-w-md w-full h-[120px] flex justify-center items-center z-10"
     >
         <div 
             id="scroll"
-            style="background-image: url('/scroll.png')" 
+            style="background-image: url('/scroll.webp')" 
             class="absolute bg-cover -bottom-5 w-full h-[47px]" 
         />
 

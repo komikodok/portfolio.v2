@@ -107,7 +107,7 @@ function handlePhoneButton() {
     >
         <div 
             class="w-full h-[90%] border-6 border-zinc-900 bg-cover bg-zinc-900 ring-2 ring-slate-600 rounded-3xl relative"
-            style="background-image: url('/walpaper.jpeg');"
+            style="background-image: url('/walpaper.webp');"
             >
             
             <!-- Phone Button -->

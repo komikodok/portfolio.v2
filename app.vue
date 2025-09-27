@@ -14,8 +14,8 @@ useHead({
   link: [
     {
       rel: 'icon',
-      type: 'image/png',
-      href: '/leaf.png',
+      type: 'image/webp',
+      href: '/leaf.webp',
     }
   ]
 })

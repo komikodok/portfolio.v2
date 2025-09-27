@@ -1,4 +1,24 @@
 <script setup lang="ts">
+const dateNow = ref<string>('')
+const timeNow = ref<string>('')
+
+onMounted(() => {
+  const dateFormatter = new Intl.DateTimeFormat('en-EN', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric'
+  })
+
+    const timeFormatter = new Intl.DateTimeFormat('en-EN', {
+        hour: 'numeric',
+        minute: 'numeric',
+        hour12: false
+    })
+
+  dateNow.value = dateFormatter.format(new Date())
+  timeNow.value = timeFormatter.format(new Date())
+})
+
 const assistantApps = useTemplateRef<(HTMLDivElement)>('assistant-apps')
 const messageApps = useTemplateRef<(HTMLDivElement)>('message-apps')
 
@@ -22,9 +42,9 @@ const emit = defineEmits<{
         <!-- Phone Header -->
         <div class="w-full h-1/2 bg-/50 px-3 py-8">
             <p class="text-3xl text-white">
-                15:09
+                {{ timeNow }}
             </p>
-            <h2 class="text-xs text-white">Sun, 27 July</h2>
+            <h2 class="text-xs text-white">{{ dateNow }}</h2>
         </div>
 
         <!-- Phone Apps -->
@@ -39,7 +59,7 @@ const emit = defineEmits<{
                     class="w-9 h-9 rounded-lg bg-cover flex justify-center items-center backdrop-blur-lg border border-white/30"
                     style="background-image: linear-gradient(135deg, rgba(255,255,255,0.30), rgba(255,255,255,0));"
                 >
-                    <img src="/assistant-normal.png" alt="Assistant">
+                    <img src="/assistant-normal.webp" alt="Assistant">
                 </div>
                 <p class="text-white text-xs">Assistant</p>
             </div>

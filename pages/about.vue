@@ -109,7 +109,7 @@ function handleTouchMove(e: TouchEvent) {
         <div class="w-full h-full">
             <div
                 id="bg-layer"
-                style="background-image: url('/forest2.jpeg');"
+                style="background-image: url('/forest2.webp');"
                 class="w-full h-full absolute inset-0 flex justify-center items-center gap-4 bg-center bg-no-repeat brightness-[20%] bg-cover z-10"
             >
                 <Profile :open-profile="openProfile" :open-skills="openSkills" @is-open="() => openProfile = !openProfile" />
@@ -119,7 +119,7 @@ function handleTouchMove(e: TouchEvent) {
 
             <div
                 id="flashlight"
-                style="background-image: url('/forest2.jpeg');"
+                style="background-image: url('/forest2.webp');"
                 class="w-full h-full absolute inset-0 flex justify-center items-center gap-4 bg-center bg-no-repeat brightness-100 bg-cover"
             >
                 <Profile 

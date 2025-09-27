@@ -119,7 +119,7 @@ function handleNextClick() {
                 class="w-20 h-20 cursor-pointer"
                 @click="handlePrevClick"
             >
-                <img src="/prev-button.png" class="object-cover">
+                <img src="/prev-button.webp" class="object-cover">
             </button>
             
             <button 
@@ -137,7 +137,7 @@ function handleNextClick() {
                 class="w-20 h-20 cursor-pointer"
                 @click="handleNextClick"
             >
-                <img src="/next-button.png" class="object-cover">
+                <img src="/next-button.webp" class="object-cover">
             </button>
         </div>
 

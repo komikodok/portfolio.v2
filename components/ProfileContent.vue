@@ -2,7 +2,7 @@
     <div class="w-full h-full text-[#5C4433]">
         <div class="flex gap-3 w-full">
             <img 
-                src="/photo.png"
+                src="/photo.webp"
                 class="w-36 h-36 object-contain"
             >
             <div class="w-full flex flex-col p-0.5">

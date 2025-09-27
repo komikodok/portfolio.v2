@@ -118,9 +118,6 @@ onBeforeRouteLeave(async () => {
     
             <rect width="1104" height="643" fill="url(#pattern0_3_2)"/>
     
-            <!-- Box
-            <image id="box" href="/box.png" x="500" y="390" width="60" height="60" /> -->
-    
             <g clip-path="url(#clip-house)">
               <rect id="door" x="495" y="259" width="73" height="217" fill="url(#pattern1_3_2)" class="z-10" />
             </g>

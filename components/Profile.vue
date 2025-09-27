@@ -74,12 +74,12 @@ function animateProfile(p: boolean, s: boolean) {
     <div
         @click="emit('is-open')"
         id="scroll-parchment"
-        style="background-image: url('/scroll-parchment.png')"
+        style="background-image: url('/scroll-parchment.webp')"
         class="cursor-pointer bg-no-repeat bg-cover absolute top-full rotate-90 opacity-0 scale-[18%] max-w-sm w-full h-[100px] flex justify-center items-center"
     >
         <div 
             id="scroll"
-            style="background-image: url('/scroll.png')" 
+            style="background-image: url('/scroll.webp')" 
             class="absolute bg-cover -bottom-5 w-full h-[40px]" 
         />
 

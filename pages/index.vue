@@ -131,7 +131,7 @@ onBeforeRouteLeave(async () => {
       >
         <div 
           id="forest" 
-          style="background-image: url('/forest.jpeg');"
+          style="background-image: url('/forest.webp');"
           class="w-full h-[100vh] flex flex-col bg-center items-center justify-center gap-6 absolute inset-0 bg-no-repeat bg-cover blur-[1px] brightness-[60%] pointer-events-none"
         >
           <strong 
@@ -153,8 +153,8 @@ onBeforeRouteLeave(async () => {
         </div>
     
         <div class="absolute inset-0 w-full h-full pointer-events-none">
-          <img id="tree-right" src="/tree-right.png" alt="Tree1" class="object-cover h-full absolute -right-64 max-lg:hidden blur-[1px] scale-120 brightness-[7%] z-10">
-          <img id="tree-left" src="/tree-left.png" alt="Tree2" class="object-cover h-full absolute -left-64 max-lg:-left-96 blur-[1px] scale-120 brightness-[7%] z-10">
+          <img id="tree-right" src="/tree-right.webp" alt="Tree1" class="object-cover h-full absolute -right-64 max-lg:hidden blur-[1px] scale-120 brightness-[7%] z-10">
+          <img id="tree-left" src="/tree-left.webp" alt="Tree2" class="object-cover h-full absolute -left-64 max-lg:-left-96 blur-[1px] scale-120 brightness-[7%] z-10">
         </div> 
       </div>
     </div>
